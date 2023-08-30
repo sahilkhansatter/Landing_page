@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('123.jpg');
+    height: 1000px;
+    color: black;
+}
+.left{
+    color: black;
+
+}
+.btn{
+    color: #f2e5e5;
+    background-color: rgb(186 93 93);
+    margin: 0px 5px;
+    padding: 3px 10px;
+    border-radius:12px ;
+    cursor: pointer;
+    font-size: 15px;
+    border-color:rgb(186 93 93) ;
+}
+.btn:hover{
+    color: rgb(198, 174, 174);
+    background-color: rgb(153, 94, 94);
+}
+.container {
+    border: 2px solid #b26096;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 366px;
+    padding: 1px;
+    border: 2px solid #503030;
+    margin: 11px auto;
+    font-size: 22px;
+    border-radius: 8px; 
+}
+
+.container h1 {
+    text-align: center;
+    color: #de2164f2;
+}
+
+
+
+.right{
+    position: absolute;
+    right: 17px;
+    top: 9px;
+    display: inline-block;
+}
+
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+    
+}
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 14px 12px;
+    
+}
+.navbar li a:hover, .navbar li a:active {
+    color: rgb(60, 54, 54);
+    text-decoration: underline;
+}
